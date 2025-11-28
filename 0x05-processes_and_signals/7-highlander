@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Ignore SIGTERM so the process stays alive
 
-trap '' SIGTERM
+
 
 while true; do
     sleep 1
