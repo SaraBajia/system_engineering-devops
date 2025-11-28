@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-# Displays a message when receiving SIGTERM and stays alive
-
-trap 'echo "I am invincible!!!"' SIGTERM
-
-while true; do
-    sleep 1
-done
