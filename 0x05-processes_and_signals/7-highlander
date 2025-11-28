@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-# Ignore SIGTERM to stay alive forever
-
-trap "" SIGTERM
-
-while true; do
-    sleep 1
-done
