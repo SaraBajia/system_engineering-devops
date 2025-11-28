@@ -1,0 +1,5 @@
+#!/bin/bash
+# 67-stop_me_if_you_can
+
+# Find the PID of 7-highlander and send SIGTERM
+pkill -f 7-highlander
